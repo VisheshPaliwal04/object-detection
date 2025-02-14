@@ -3,9 +3,7 @@ import numpy as np
 from ultralytics import YOLO
 import pyttsx3
 engine = pyttsx3.init()
-
 model = YOLO(r"C:\Users\Lenovo\Downloads\yolo11-pytorch-default-v1\yolo11l.pt")
-
 video = cv2.VideoCapture(0)
 
 if not video.isOpened():
